@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gestao.Repositorio
+namespace Gestao.Servico
 {
-    public interface IAlunoRepositorio
+    public interface IAlunoServico
     {
         void Adicionar(Aluno aluno);
         List<Aluno> Listar();
